@@ -1,4 +1,4 @@
-# JavaScript Hello World Sample - Vue
+# Hello World Sample for Vue
 
 [Vue](https://vuejs.org/) is a progressive framework for building user interfaces. Check out the following guide on how to implement Dynamsoft Barcode Reader JavaScript SDK (hereafter called "the library") into a Vue 2 application.
 
@@ -19,7 +19,7 @@ Make sure you have [node](https://nodejs.org/) installed. `node 14.21.3` and `vu
 npm create vue@2
 ```
 
-### **CD** to the root directory of the application and install the dependencies
+### **CD** to the root directory of the application and install necessary libraries
 
 ```cmd
 npm install
@@ -136,7 +136,7 @@ export default {
       await scanner.open();
     } catch (ex) {
       let errMsg;
-      if (ex.message.includes("network connection error")) {
+      if (ex.message?.includes("network connection error")) {
         errMsg = "Failed to connect to Dynamsoft License Server: network connection error. Check your Internet connection or contact Dynamsoft Support (support@dynamsoft.com) to acquire an offline license.";
       } else {
         errMsg = ex.message||ex;
@@ -310,7 +310,7 @@ export default {
         if (!results.length) { alert('No barcode found'); }
       } catch (ex) {
         let errMsg;
-        if (ex.message.includes("network connection error")) {
+        if (ex.message?.includes("network connection error")) {
           errMsg = "Failed to connect to Dynamsoft License Server: network connection error. Check your Internet connection or contact Dynamsoft Support (support@dynamsoft.com) to acquire an offline license.";
         } else {
           errMsg = ex.message||ex;
@@ -379,7 +379,7 @@ export default {
       await BarcodeReader.loadWasm();
     } catch (ex) {
       let errMsg;
-      if (ex.message.includes("network connection error")) {
+      if (ex.message?.includes("network connection error")) {
         errMsg = "Failed to connect to Dynamsoft License Server: network connection error. Check your Internet connection or contact Dynamsoft Support (support@dynamsoft.com) to acquire an offline license.";
       } else {
         errMsg = ex.message||ex;
@@ -494,3 +494,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Support
+
+If you have any questions, feel free to [contact Dynamsoft support](https://www.dynamsoft.com/company/contact?utm_source=sampleReadme).
