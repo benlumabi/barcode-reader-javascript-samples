@@ -37,7 +37,7 @@
  * @website https://www.dynamsoft.com
  * @copyright Copyright 2024, Dynamsoft Corporation
  * @author Dynamsoft
- * @version 3.0.32
+ * @version 3.0.33
  * @fileoverview Dynamsoft JavaScript Library for Core
  * More info on Dynamsoft Core JS: https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/core/core-module.html
  */
@@ -48,7 +48,7 @@
  * @website https://www.dynamsoft.com
  * @copyright Copyright 2024, Dynamsoft Corporation
  * @author Dynamsoft
- * @version 3.0.20
+ * @version 3.0.40
  * @fileoverview Dynamsoft JavaScript Library for Core
  * More info DL JS: https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/license/license-module.html
  */
@@ -59,7 +59,7 @@
 * @website http://www.dynamsoft.com
 * @copyright Copyright 2024, Dynamsoft Corporation
 * @author Dynamsoft
-* @version 10.0.20
+* @version 10.0.21
 * @fileoverview Dynamsoft JavaScript Library for Barcode Reader
 * More info on dbr JS: https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/
 */
